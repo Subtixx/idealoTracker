@@ -1,0 +1,38 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+###
+
+GET https://www.idealo.de/suggest?q=test&highlightClass=i-suggest-highlight&max=10
+
+###
+
+GET https://www.idealo.de/preisvergleich/MainSearchProductCategory.html?q=gtx%201070
+
+###
+
+GET https://www.idealo.de/preisvergleich/OffersOfProduct/5041022_-gtx1070-asus.html
+
+###
+
+GET https://www.idealo.de/offerpage/pricechart/api/5041022?period=P3M
+
+
+###
+
+GET https://www.idealo.de/wishlist/de/api/favorites/entryStatus?products=5041022&products=5041022&
+
+###
+
+GET https://www.idealo.de/offerpage/fragment/internationalprices/products/5041022
+
+###
+
+GET https://www.idealo.de/preisvergleich/OffersOfProduct/5041022
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+
+###
